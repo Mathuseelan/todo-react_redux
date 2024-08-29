@@ -1,0 +1,25 @@
+.todoList{
+    width: 80%;
+    margin: 0 auto;
+}
+.todoList__heading{
+    text-align: center;
+    color: rgb(143, 191, 247);
+}
+.todoList__item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 20px;
+}
+.todoList__button{
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+}
+.todoList__button:hover{
+    color: rgb(143, 191, 247);
+}
